@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: callanniefendbend.azurecr.io/atulpancharia001/fend:latest
+    ports:
+      - "80:80"
+
+  backend:
+    image: callanniefendbend.azurecr.io/atulpancharia001/bend:latest
+    ports:
+      - "5000:5000"
